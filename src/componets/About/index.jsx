@@ -18,6 +18,9 @@ const AboutUs = () => {
             More than 10 years, Arkademy Travel Services has grow at a steady pace and become one of Indonesia's leading travel agent offering a complete travel solution for both leisure and business travels. The company has over 500 staff
             within 24 branches across the country
           </p>
+          <Link to="/destination">
+            <button className={`  ${Style.btn1} btn1`}>Destination</button>
+          </Link>
         </div>
       </div>
     </section>
